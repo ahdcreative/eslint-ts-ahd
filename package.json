@@ -6,7 +6,6 @@
   "scripts": {
     "test": "eslint --config index.js"
   },
-  "private": true,
   "dependencies": {
     "eslint": "^8.56.0"
   },
@@ -24,5 +23,6 @@
   "files": [
     "index.js",
     "LICENSE"
-  ]
+  ],
+  "private": false
 }

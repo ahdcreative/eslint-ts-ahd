@@ -1,0 +1,10 @@
+{
+  "extends": ["github>ahdcreative/renovate-config"],
+  "packageRules": [
+    {
+      "automerge": true,
+      "datasources": ["npm"],
+      "packageNames": ["renovate"]
+    }
+  ]
+}
